@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="lk.ac.pdn.ce.hackathon1.MainActivity"
+
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:clickable="true"
+    android:background="@drawable/bbbb">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Shop Finder"
+        android:layout_gravity="center_horizontal"
+
+        android:id="@+id/lblTitle"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#00334b"
+        android:textColorHighlight="#202020"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="91sp"
+        android:layout_height="91sp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/aaaaaa"
+        android:layout_below="@+id/lblTitle"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Enter How Much You Have"
+        android:textColorHint="#000000"
+        android:textIsSelectable="false"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:clickable="false"
+        android:layout_above="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/cccc"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:onClick="search"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Category"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:textColor="#002351"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/lblTitle"
+        android:layout_alignStart="@+id/lblTitle"
+        android:layout_marginTop="28dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:hint="Enter Your Item"
+        android:textColorHint="#000000"
+        android:textStyle="normal"
+        android:clickable="true"
+        android:textSize="25dp"
+        android:layout_above="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2" />
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Lahiru/AndroidStudioProjects/SmartShopFinder/app/src/main/res/layout/activity_main.xml -->
